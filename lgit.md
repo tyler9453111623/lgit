@@ -37,7 +37,7 @@ git push origin master
 
 ```
 
-> 这里如果遇到报错，需要设置下git用户名和密码;
+> 这里如果遇到报错，需要设置下git用户名和密码;  
 "Please make sure you have the correct access rights and the repository exists."
 
 ### 解决办法：
