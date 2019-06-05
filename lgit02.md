@@ -43,22 +43,22 @@ git log
 * Unmodify: 
 
 文件已经入库, 未修改, 即版本库中的文件快照内容与文件夹中完全一致. 
-这种类型的文件有两种去处, 
-1）如果它被修改, 而变为Modified. 
-2）如果使用git rm移出版本库, 则成为Untracked文件
+这种类型的文件有两种去处
+(1) 如果它被修改, 而变为Modified. 
+(2) 如果使用git rm移出版本库, 则成为Untracked文件
 
 * Modified: 
 
 文件已修改, 仅仅是修改, 并没有进行其他的操作. 
 这个文件也有两个去处, 
-1）通过git add可进入暂存staged状态,
-2）使用git checkout 则丢弃修改过, 返回到unmodify状态, 这个git checkout即从库中取出文件, 覆盖当前修改
+(1) 通过git add可进入暂存staged状态,
+(2) 使用git checkout 则丢弃修改过, 返回到unmodify状态, 这个git checkout即从库中取出文件, 覆盖当前修改
 
 * Staged: 
 
 暂存状态. 
-1）执行git commit则将修改同步到库中, 这时库中的文件和本地文件又变为一致, 文件为Unmodify状态. 
-2）执行git reset HEAD filename取消暂存, 文件状态为Modified
+(1) 执行git commit则将修改同步到库中, 这时库中的文件和本地文件又变为一致, 文件为Unmodify状态. 
+(2) 执行git reset HEAD filename取消暂存, 文件状态为Modified
 
 
 ### 添加 & 提交 & 删除
