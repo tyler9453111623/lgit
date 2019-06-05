@@ -54,7 +54,7 @@ github > 右上角头像 > setting > SSH and GPG keys > New SSH key > 粘贴
 
 
 ```bash
-再次尝试
+# 再次尝试
 [ronny@MacPro2018.local:~/Dropbox/lgit]$ git push -u origin master
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
