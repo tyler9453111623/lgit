@@ -39,6 +39,11 @@ git log
 # 查看状态，有什么文件提交了，有什么变化之类的信息
 git status
 
+# 查看当前远程地址
+[ronny@MacPro2018.local:~/Dropbox/lgit]$ git remote -v
+origin  git@github.com:tyler9453111623/lgit.git (fetch)
+origin  git@github.com:tyler9453111623/lgit.git (push)
+
 ```
 
 
