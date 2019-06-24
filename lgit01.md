@@ -35,6 +35,21 @@ git push -u origin master
 # 后期提交到远程只需要
 git push origin master
 
+# 创建本地分支
+git branch 分支名
+
+# 切换到本地分支
+git checkout 分支名
+
+# 提交本地分支到远程仓库
+git push origin 本地分支名
+
+# 新建本地分支与远程分支关联
+git branch –set-upstream 本地新建分支名 origin/远程分支名
+
+# 查看本地分支和远程分支关联关系
+git branch -vv
+
 ```
 
 > 这里如果遇到报错，需要设置下git用户名和密码;  

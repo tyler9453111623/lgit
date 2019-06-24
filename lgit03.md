@@ -50,7 +50,6 @@ git fetch --all && git reset --hard origin/master && git pull
 
 ```
 
-### 查看本地分支和远程分支关联关系
-git branch -vv
+
 
 
