@@ -1,4 +1,4 @@
-
+v
 ### 在github创建账号
 
 ### 在github创建仓库(repo)
@@ -45,7 +45,7 @@ git checkout 分支名
 git push origin 本地分支名
 
 # 新建本地分支与远程分支关联
-git branch –set-upstream 本地新建分支名 origin/远程分支名
+git branch --set-upstream-to=origin/dev dev
 
 # 查看本地分支和远程分支关联关系
 git branch -vv
