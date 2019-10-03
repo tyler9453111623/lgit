@@ -50,7 +50,4 @@ git fetch --all && git reset --hard origin/master && git pull
 
 ```
 
-yb
-https://www.yb78.app/?i_code=6900066
-
 
