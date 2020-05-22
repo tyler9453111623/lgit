@@ -1,4 +1,4 @@
-v
+
 ### 在github创建账号
 
 ### 在github创建仓库(repo)
